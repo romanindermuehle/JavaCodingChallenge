@@ -12,9 +12,6 @@ public class Challenge3 {
         char[] sortedSearch = search.toCharArray();
         Arrays.sort(sortedSearch);
 
-        System.out.println(sortedText);
-        System.out.println(sortedSearch);
-
         return Arrays.toString(sortedText).equals(Arrays.toString(sortedSearch));
     }
 }

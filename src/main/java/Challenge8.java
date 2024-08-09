@@ -14,7 +14,6 @@ public class Challenge8 {
             } else {
                 textIndexCount++;
             }
-            System.out.println(text.charAt(textIndexCount) + " " + textIndexCount + "," + search.charAt(searchIndexCount) + " " + searchIndexCount);
             if (text.charAt(textIndexCount) == search.charAt(searchIndexCount)) {
                 searchIndexCount++;
 
@@ -38,7 +37,6 @@ public class Challenge8 {
         boolean isStringRotated = false;
 
         for (int i = 0; i < text.length() * 2; i++) {
-            System.out.println(text.charAt(i % text.length()) + ", " + search.charAt(searchIndexCount) + ", " + "Index = " + i + " " + "TextLength = " + text.length() + " " + "Modulo: " + i % text.length());
             if (text.charAt(i % text.length()) == search.charAt(searchIndexCount)) {
                 searchIndexCount++;
 

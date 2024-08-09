@@ -5,8 +5,6 @@ public class Challenge2 {
 
         for (int i = text.length() - 1; i >= 0; i--) {
             reversedText.append(lowerCaseText.charAt(i));
-            System.out.println("Index =" + i);
-            System.out.println(reversedText.toString());
         }
 
         return reversedText.toString().equals(text.toLowerCase());
